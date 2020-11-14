@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "fabric-demo": {
@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "fabric-demo"
+    }
+  },
+  "defaultProject": "fabric-demo",
+  "cli": {
+    "analytics": false
+  }
 }

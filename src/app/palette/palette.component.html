@@ -1,0 +1,8 @@
+<nav class="panel">
+    <p class="panel-heading">
+      Element   
+    </p>
+    <div class="panel-block" *ngFor="let item of items" (dragstart)="dragStart($event,item)" draggable="true" (click)="addElement($event,item)" >
+        {{item.shape}}
+    </div>
+</nav>
